@@ -43,3 +43,5 @@ RUN docker-php-ext-install -j$(nproc) gd
 
 # Enable apache modules
 RUN a2enmod rewrite headers
+
+RUN git clone https://github.com/moodle/moodle.git -b MOODLE_37_STABLE development /var/www/html/
