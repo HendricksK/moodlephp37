@@ -1,5 +1,7 @@
 # moodlephp37
 
+git clone on your local machine
+
 docker setup to run moodle, doesPHP 7.3  with moodle 37 stable branch, uses mariadb 10, should use a bridge network, but this was built for windows, which does that automatically.
 
 if you are running macos, you can add this to your docker compose file at the db service
