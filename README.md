@@ -13,7 +13,7 @@ this will bind the DB service to a specified IP, so you can access it at 172.20.
 
 if you run into any bind issues, you can also set different ports see https://github.com/kurvinh/docker-compose-lamp/blob/master/docker-compose.yml as an example
 
-CLI into the apache docker container cd into /var/www/hml and run git clone https://github.com/moodle/moodle.git -b MOODLE_37_STABLE development
+inside your www/ run git clone https://github.com/moodle/moodle.git -b MOODLE_37_STABLE development
 
 MYSQL_USER: 'user'
 # You can use whatever password you like
